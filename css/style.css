@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell&display=swap');
+
+*
+{
+    --largeur: 2000px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: rgb(249, 249, 248);
+    font-family: 'Cantarell', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.container
+{
+    font-size: 14px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.menu
+{
+    background-color: black;
+    height: 61px;
+}
+
+.sous-menu
+{
+    background-color: rgb(90, 121, 160);
+    border-top: 1px solid white;
+    height: 30px;
+    margin-top: -4px;
+}
+
+li > a > img
+{
+    height: 60px;
+    margin-left: 9em;
+    width: 60px;
+}
+
+ul
+{
+    align-items: center;
+    color: #aeaeae;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 1290px;
+}
+
+.sous-menu > ul
+{
+    justify-content: space-evenly;
+    margin-left: 7em;
+}
+
+li a
+{ 
+    color: rgb(249, 249, 248);
+    text-decoration: none;
+}
+
+.fas fa-search
+{
+    color: #aeaeae;
+}
+
+                /*liens ::hover */
+
+.color1:hover
+{
+    border-bottom: 7px solid rgb(90, 121, 160);
+    padding-bottom: 3px;  
+}
+
+.color2:hover
+{
+    border-bottom: 7px solid #837466;
+    padding-bottom: 3px;  
+}
+
+.color3:hover
+{
+    border-bottom: 7px solid #207FB7;
+    padding-bottom: 3px;
+}
+
+.color4:hover
+{
+    border-bottom: 7px solid #FFAF00;
+    padding-bottom: 3px;
+}
+
+.color5:hover
+{
+    border-bottom: 7px solid #5B7C8E;
+    padding-bottom: 3px;
+}
+
+.color6:hover
+{
+    border-bottom: 7px solid #008591;
+    padding-bottom: 3px;
+}
+
+.color7:hover
+{
+    border-bottom: 7px solid #A05FA8;
+    padding-bottom: 3px;
+}
+
+.color8:hover
+{
+    border-bottom: 7px solid #840132;
+    padding-bottom: 3px;
+}
+
+.color9:hover
+{
+    border-bottom: 7px solid #FF6C00;
+    padding-bottom: 3px;
+}
+
+.color10:hover
+{
+    border-bottom: 7px solid #55815C;
+    padding-bottom: 3px;
+}
+
+.sous-menu li a:hover
+{
+    text-decoration: underline;
+}
+
+            /* début du contenu */
+.contenu
+{
+    margin: 0px auto;
+    margin-top: 110px;
+    max-width: 1170px;
+}
+
+                /* j'ai mis les nouvelles dans des borders */
+
+.nouvelle
+{
+    border: 1px solid rgb(209, 208, 208);
+    border-left: none;
+    border-right: none;
+}
+
+.deux
+{
+    border-bottom: none;
+    border-top: none;
+}
+
+.trois
+{
+    border-bottom: none;
+}
+
+                    /*contenu des boîtes*/
+
+.bloc
+{
+    background-color: rgb(90, 121, 160);
+    border: solid rgb(90, 121, 160);
+    height: 10px;
+    margin-left: 225px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+h2
+{
+    margin-top: 10px;
+}
+
+h2 > a > img
+{
+    height: 148px;
+    margin-top: -20px;
+    width: 222px;
+}
+
+div > a > img
+{
+    height: 250px;
+    width: 300px;
+}
+
+h2 a
+{
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:hover
+{
+    color: rgb(76, 106, 143);
+    opacity: 0.9;
+}
+
+h2 > a > img:hover
+{
+opacity: 0.9;
+}
+
+p
+{
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: -5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+span
+{
+    font-size: larger;
+}
+
+span.heure
+{
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+            /* colonne-droite pub */
+
+aside
+{
+    margin-left: 4em;
+    position: fixed;
+}
+
+.quatre
+{
+    border-bottom: none;
+    width: 300px;
+}
+
+#pub
+{   
+    background-color: rgb(216, 216, 216);
+    border: solid 1px rgb(216, 216, 216);
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+}
